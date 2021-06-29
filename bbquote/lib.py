@@ -7,7 +7,7 @@ def get_quote():
     # url = 'https://breaking-bad-quotes.herokuapp.com/v1/quotes'
     response = requests.get(url).json()
 
-    return f"{response['quote']}    - {response['role']}"
+    return f"{response['quote']}    - {response['show']}"
 
 
 if __name__ == "__main__":
