@@ -72,4 +72,4 @@ jobs:
       with:
         heroku_api_key: ${{secrets.0b2c2885-ac2b-4346-92f7-f3564792c6a5}}
         heroku_app_name: "bbquote3" # Must be unique in Heroku
-        heroku_email: ${{secrets.astridzhu8@gmail.com}
+        heroku_email: ${{secrets.astridzhu8@gmail.com}}
